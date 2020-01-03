@@ -3,7 +3,7 @@ My (kangalioo) sync tool helps you sync charts to songs. It aims to be especiall
 
 Therefore the catch is that you won't be able to use this for songs without clear beat boundaries (i.e. drum hits). That means that this is primarily meant for EDM; things like Acapella or Orchestra music which have vague beat - not so much.
 
-This tool uses the Audacity label functionality. If you haven't installed Audacity, you can install it for free as it's open-source. Load your audio file into Audacity and go wild creating labels using the Ctrl+B shortcut (you'll learn about the types of markers below). When you're done, export the labels via `File -> Export -> Export Labels`. Drag the resulting .txt file onto my tool's exe file, and it will create a `sync-values-output.txt` file looking similar to this:
+This tool uses the Audacity label functionality. If you haven't installed Audacity, you can install it for free as it's open-source. Load your audio file into Audacity and go wild creating labels using the Ctrl+B shortcut (you'll learn about the types of markers below). When you're done, export the labels via `File -> Export -> Export Labels`. Drag the resulting .txt file onto my tool's exe file ([download](https://github.com/kangalioo/synctool/releases)), and it will create a `sync-values-output.txt` file looking similar to this:
 ```
 #BPMS:0.000000=171.288809
 ,222.000000=171.177361
